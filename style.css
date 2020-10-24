@@ -20,12 +20,22 @@ ul {
     flex-direction: row;
     width: 30%;
     height: 100%;
-}
+    margin: auto 0 auto auto;
+        }
+
 li {
     width: 30%;
     height: 100%;
     list-style: none;
- }
+    margin: auto auto;
+    font-size: 25px;
+    text-align: center;
+    }
+a {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .container {
     display: flex;
     flex-direction: row;
