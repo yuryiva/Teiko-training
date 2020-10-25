@@ -4,7 +4,6 @@
 
 body {
     width: 100vw;
-    height: 100vh;
     background-color: cadetblue;
     display: flex;
     flex-direction: column;
@@ -12,7 +11,7 @@ body {
 
 header {
     width: 100%;
-    height: 20%;
+    height: 20vh;
     display: flex;
     flex-direction: row;
     background-color: lightpink;
@@ -35,29 +34,24 @@ header {
 
 main {
     width: 100%;
-    height: 80%;
+    height: 80vh;
     display: flex;
     flex-direction: column-reverse;
+    justify-content: flex-end;
 }
 
 article {
     width: 100%;
-    height: 60%;
     background-color: darkslategrey;
-    margin-top: 0%;
-    
+        
 }
 
 #aside1 {
     width: 100%;
-    height: 20%;
     background-color: forestgreen;
-    margin-bottom: 0%;
-
-}
+    }
 
 #aside2 {
     width: 100%;
-    height: 20%;
     background-color: hotpink;
 }
